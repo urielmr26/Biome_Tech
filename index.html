@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Biomectech - Tecnología y Recursos Médicos Avanzados">
+  <title>Biomectech - Recursos Médicos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="CSS/CSS.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+          <img src="BIOMECTECH_logo_iso%20(2).png" alt="Biomectech_logo" class="navbar-logo">
+        <a class="navbar-brand" href="index.html"">BIOMECTECH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#mainCarousel">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="/privacy">Privacidad</a></li>
+          </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="hero-carousel" class="hero-section">
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-background" style="background-image: url(IMG/img2.jpg)"></div>
+        <div class="carousel-caption">
+          <h2>Equipos Médicos de Última Generación</h2>
+          <p>Tecnología avanzada para el cuidado de la salud</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-background" style="background-image: url(IMG/img1.jpg)"></div>
+        <div class="carousel-caption">
+          <h2>Instrumental Médico Especializado</h2>
+          <p>Herramientas de precisión para profesionales</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-background" style="background-image: url(IMG/img3.jpg)"></div>
+        <div class="carousel-caption">
+          <h2>Soporte Técnico 24/7</h2>
+          <p>Respaldo continuo para tu práctica médica</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+
+<!-- Sección Productos -->
+<section id="productos" class="section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/producto/RopaDesechable" class="product-link">
+                                    <img src=IMG/img4.jpg class="card-img-top" alt="Equipo de Diagnóstico">
+                                    <div class="card-body">
+                                        <h3>Ropa Desechable</h3>
+                                        <p>Cubrebocas, Gorros/Cofias, Redes para cabello, Batas/Uniformes, Ropa para Spa, Overoles.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/producto/quirurgicos" class="product-link">
+                                    <img src="IMG/img_material.jpg" class="card-img-top" alt="Instrumentos Quirúrgicos">
+                                    <div class="card-body">
+                                        <h3>Instrumentos Quirúrgicos</h3>
+                                        <p>Instrumental de alta precisión para cirugía</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/producto/monitores-medicos" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Monitores Médicos">
+                                    <div class="card-body">
+                                        <h3>Monitores Médicos</h3>
+                                        <p>Sistemas de monitorización avanzados</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segunda página del carrusel -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/producto/equipos-laboratorio" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Equipos de Laboratorio">
+                                    <div class="card-body">
+                                        <h3>Equipos de Laboratorio</h3>
+                                        <p>Instrumentos precisos para análisis clínicos</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/producto/equipos-rehabilitacion" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Equipos de Rehabilitación">
+                                    <div class="card-body">
+                                        <h3>Equipos de Rehabilitación</h3>
+                                        <p>Tecnología para terapia física y rehabilitación</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/producto/insumos-medicos" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Insumos Médicos">
+                                    <div class="card-body">
+                                        <h3>Insumos Médicos</h3>
+                                        <p>Suministros esenciales para la práctica médica</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">Nuestros Servicios</h2>
+      <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="service-card">
+                  <a href="/servicio/mantenimiento" class="service-link">
+                    <div>
+                      <i class="fas fa-tools service-icon"></i>
+                      <h3>Mantenimiento Preventivo</h3>
+                      <p>Servicio técnico especializado para equipos médicos</p>
+                    </div>
+                    <div class="btn-container">
+                      <span class="btn btn-primary">Más Información</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-card">
+                  <a href="/servicio/capacitacion" class="service-link">
+                    <div>
+                      <i class="fas fa-graduation-cap service-icon"></i>
+                      <h3>Capacitación</h3>
+                      <p>Entrenamiento profesional para uso de equipos</p>
+                    </div>
+                    <div class="btn-container">
+                      <span class="btn btn-primary">Más Información</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-card">
+                  <a href="/servicio/soporte" class="service-link">
+                    <div>
+                      <i class="fas fa-ambulance service-icon"></i>
+                      <h3>Soporte de Emergencia</h3>
+                      <p>Asistencia técnica 24/7</p>
+                    </div>
+                    <div class="btn-container">
+                      <span class="btn btn-primary">Más Información</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="service-card">
+                  <a href="/servicio/instalacion" class="service-link">
+                    <div>
+                      <i class="fas fa-cogs service-icon"></i>
+                      <h3>Instalación</h3>
+                      <p>Montaje y configuración de equipos</p>
+                    </div>
+                    <div class="btn-container">
+                      <span class="btn btn-primary">Más Información</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-card">
+                  <a href="/servicio/certificacion" class="service-link">
+                    <div>
+                      <i class="fas fa-clipboard-check service-icon"></i>
+                      <h3>Certificación</h3>
+                      <p>Validación y certificación de equipos</p>
+                    </div>
+                    <div class="btn-container">
+                      <span class="btn btn-primary">Más Información</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-card">
+                  <a href="/servicio/actualizacion" class="service-link">
+                    <div>
+                      <i class="fas fa-sync service-icon"></i>
+                      <h3>Actualización</h3>
+                      <p>Modernización de equipos existentes</p>
+                    </div>
+                    <div class="btn-container">
+                      <span class="btn btn-primary">Más Información</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="cursos" class="section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title">Cursos Activos</h2>
+        <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/curso/ecografia-basica" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Ecografía Básica">
+                                    <div class="card-body">
+                                        <h3>Ecografía Básica</h3>
+                                        <p>Curso introductorio a la ecografía médica</p>
+                                        <div class="course-details">
+                                            <span><i class="fas fa-clock"></i> 40 horas</span>
+                                            <span><i class="fas fa-calendar"></i> 15 Abril</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/curso/radiologia-digital" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1583912268183-46bf5da946e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Radiología Digital">
+                                    <div class="card-body">
+                                        <h3>Radiología Digital</h3>
+                                        <p>Especialización en interpretación de imágenes</p>
+                                        <div class="course-details">
+                                            <span><i class="fas fa-clock"></i> 60 horas</span>
+                                            <span><i class="fas fa-calendar"></i> 1 Mayo</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/curso/equipos-medicos" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Manejo de Equipos Médicos">
+                                    <div class="card-body">
+                                        <h3>Manejo de Equipos Médicos</h3>
+                                        <p>Capacitación en operación de equipos</p>
+                                        <div class="course-details">
+                                            <span><i class="fas fa-clock"></i> 30 horas</span>
+                                            <span><i class="fas fa-calendar"></i> 10 Mayo</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/curso/ultrasonido-cardiaco" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Ultrasonido Cardíaco">
+                                    <div class="card-body">
+                                        <h3>Ultrasonido Cardíaco</h3>
+                                        <p>Especialización en ecocardiografía</p>
+                                        <div class="course-details">
+                                            <span><i class="fas fa-clock"></i> 80 horas</span>
+                                            <span><i class="fas fa-calendar"></i> 20 Mayo</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/curso/resonancia-magnetica" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Resonancia Magnética">
+                                    <div class="card-body">
+                                        <h3>Resonancia Magnética</h3>
+                                        <p>Formación en tecnología de RM</p>
+                                        <div class="course-details">
+                                            <span><i class="fas fa-clock"></i> 100 horas</span>
+                                            <span><i class="fas fa-calendar"></i> 5 Junio</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <a href="/curso/tomografia-computarizada" class="product-link">
+                                    <img src="https://images.unsplash.com/photo-1584362767105-fe6142d68ff3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Tomografía Computarizada">
+                                    <div class="card-body">
+                                        <h3>Tomografía Computarizada</h3>
+                                        <p>Curso avanzado en TC multicorte</p>
+                                        <div class="course-details">
+                                            <span><i class="fas fa-clock"></i> 90 horas</span>
+                                            <span><i class="fas fa-calendar"></i> 15 Junio</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+  <!-- Sección Promociones -->
+  <section id="promociones" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">Promociones Especiales</h2>
+      <div id="promoCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="promo-card">
+                  <div class="promo-image-container">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae" alt="Equipo Médico" class="promo-image">
+                  </div>
+                  <div class="promo-content">
+                    <h3>Monitor de Signos Vitales</h3>
+                    <div class="promo-price">
+                      <span class="original-price">$85,000 MXN</span>
+                      <span class="discount-price">$72,250 MXN</span>
+                    </div>
+                    <p>15% de descuento en monitores de última generación</p>
+                    <a href="https://wa.me/+525580315284?text=Hola,%20me%20interesa%20la%20promoción%20del%20Monitor%20de%20Signos%20Vitales%20con%2015%%20de%20descuento" 
+                       class="btn btn-whatsapp" target="_blank">
+                      <i class="fab fa-whatsapp"></i> Consultar Promoción
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="promo-card">
+                  <div class="promo-image-container">
+                    <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b" alt="Equipo de Rehabilitación" class="promo-image">
+                  </div>
+                  <div class="promo-content">
+                    <h3>Kit de Rehabilitación</h3>
+                    <div class="promo-price">
+                      <span class="original-price">$45,000 MXN</span>
+                      <span class="discount-price">$36,000 MXN</span>
+                    </div>
+                    <p>20% de descuento en kits completos de rehabilitación</p>
+                    <a href="https://wa.me/+525580315284?text=Hola,%20me%20interesa%20el%20Kit%20de%20Rehabilitación%20con%2020%%20de%20descuento" 
+                       class="btn btn-whatsapp" target="_blank">
+                      <i class="fab fa-whatsapp"></i> Consultar Promoción
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="promo-card">
+                  <div class="promo-image-container">
+                    <img src="https://images.unsplash.com/photo-1583912268183-46bf5da946e1" alt="Equipo de Laboratorio" class="promo-image">
+                  </div>
+                  <div class="promo-content">
+                    <h3>Microscopio Digital</h3>
+                    <div class="promo-price">
+                      <span class="original-price">$95,000 MXN</span>
+                      <span class="discount-price">$76,000 MXN</span>
+                    </div>
+                    <p>20% de descuento en microscopios digitales de última generación</p>
+                    <a href="https://wa.me/+525580315284?text=Hola,%20me%20interesa%20el%20Microscopio%20Digital%20con%2020%%20de%20descuento" 
+                       class="btn btn-whatsapp" target="_blank">
+                      <i class="fab fa-whatsapp"></i> Consultar Promoción
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Segunda página del carrusel -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="promo-card">
+                  <div class="promo-image-container">
+                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514" alt="Desfibrilador" class="promo-image">
+                  </div>
+                  <div class="promo-content">
+                    <h3>Desfibrilador Automático</h3>
+                    <div class="promo-price">
+                      <span class="original-price">$120,000 MXN</span>
+                      <span class="discount-price">$96,000 MXN</span>
+                    </div>
+                    <p>20% de descuento en desfibriladores automáticos</p>
+                    <a href="https://wa.me/+525580315284?text=Hola,%20me%20interesa%20el%20Desfibrilador%20Automático%20con%2020%%20de%20descuento" 
+                       class="btn btn-whatsapp" target="_blank">
+                      <i class="fab fa-whatsapp"></i> Consultar Promoción
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#promoCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#promoCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="clientes" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">Nuestros Clientes</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-card">
+              <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Dr. Carlos Rodríguez" class="testimonial-img">
+              <h4>Dr. Carlos Rodríguez</h4>
+              <p class="testimonial-position">Director Médico - Hospital Central</p>
+              <p class="testimonial-text">"Los equipos y el servicio técnico de Biomectech han sido fundamentales para mejorar la calidad de atención en nuestro hospital."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Dra. Ana Martínez" class="testimonial-img">
+              <h4>Dra. Ana Martínez</h4>
+              <p class="testimonial-position">Jefa de Cirugía - Clínica San Rafael</p>
+              <p class="testimonial-text">"La calidad de los instrumentos quirúrgicos y el soporte técnico son excepcionales. Totalmente recomendado."</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
+            </div>
+            <div class="mb-3">
+              <select name="area" class="form-control" required>
+                <option value="">Seleccione área de interés</option>
+                <option value="equipos">Equipos Médicos</option>
+                <option value="instrumentos">Instrumentos Quirúrgicos</option>
+                <option value="servicio">Servicio Técnico</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <textarea name="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button>
+            </div>
+            <div id="formMessage" class="alert mt-3" style="display: none;"></div>          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-section">
+        <h3>Sobre Biomectech</h3>
+        <p>Líderes en tecnología médica con más de 30 años de experiencia brindando soluciones integrales al sector salud en México.</p>
+      </div>
+      <div class="col-md-4 footer-section footer-contact">
+        <h3>Contacto</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Av. Principal #123, Col. Centro</p>
+        <p><i class="fas fa-phone"></i> +52 55 8031 5284</p>
+        <p><i class="fas fa-envelope"></i> info@biomectech.com</p>
+        <p><i class="fas fa-clock"></i> Lun - Vie: 9:00 - 18:00</p>
+      </div>
+      <div class="col-md-4 footer-section">
+        <h3>Síguenos</h3>
+        <ul class="footer-social">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Biomectech. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/+525580315284" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
